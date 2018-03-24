@@ -66,9 +66,36 @@ td {
   overflow: hidden;
 }
 
+.container {
+  padding-left: 10%;
+}
+
 #head {
   border: solid 1px;
   background-color: #808080;
+}
+
+.imgg {
+  max-width: 490px;
+  max-height: 390px;
+  /*box-shadow: 3px 3px 8px 3px #808080;*/
+}
+
+.row-two {
+  float: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.grid li {
+  display: inline-block;
+}
+
+.img1 {
+  box-sizing: border-box;
+  max-width: 490px;
+  padding: 0px;
+  box-shadow: 4px 4px 7px 4px #808080;
 }
 
 .bodyy {

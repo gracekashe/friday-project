@@ -116,3 +116,12 @@ h6 {
   min-height: 300px;
   background-image: url('../images/subscribe.jpg');
 }
+
+.menu {
+  position: relative;
+  padding-top: 10%;
+  text-align: center;
+  color: #FFFFFF;
+  min-height: 300px;
+  background-color: #FF5733;
+}

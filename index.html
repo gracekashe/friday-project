@@ -3,12 +3,14 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <title></title>
 </head>
 
 <body>
+  <!--section one-->
   <div class=< "container-fluid">
     <div class="row">
       <div class="jumbotron">
@@ -21,14 +23,8 @@
       <div class="food">
         <!-- <div class="row-md-2"> -->
         <div class="col-md-3">
-          <table>
-            <tr>
-              <th>Happy Hour</th>
-            </tr>
-            <tr>
-              <td>Party Time</td>
-            </tr>
-          </table>
+          <p id="happyhour">Happy Hour</p>
+          <p id="partytime">Party Time</p>
         </div>
         <!-- </div> -->
         <div class="col-md-3">
@@ -46,6 +42,7 @@
       </div>
 
     </div>
+    <!--section two-->
     <div class="container">
       <div class="row-one">
         <div class="col-md-6">
@@ -68,16 +65,17 @@
           <li class="col-md-6 ">
             <h1>Drinks</h1>
             <p>have a taste for variety of drinks;be it coke,fanta,afia,picana,merinda...The choice is yours.We intend to make sure you have the best.</p>
-          </li>
-          <li> <img src="images/drink1.jpg" alt=" image of drink"> </li>
-          <li> <img src="images/drink2.jpg" alt=" image of drink"> </li>
+            <div class="col-sm-7" id="nav3">
+              <img class="icon" src="images/drink2.jpg" alt=" image of drink">
+              <img class="icons" src="images/drink1.jpg" alt="image of drink">
+            </div>
 
-        </ul>
+
 
 
       </div>
     </div>
-
+    <!--section three-->
     <div class="jumbotron1 ">
 
       <div class="me">
@@ -108,6 +106,7 @@
       </div>
 
     </div>
+    <!--section four-->
     <div class="boxs">
       <div class="box">
         <div class="rowc">
@@ -133,12 +132,19 @@
         </div>
       </div>
     </div>
+    <!--section five-->
     <div class="subscribe">
-      <p>Get our daily food items delivered to your email</p>
-      <form>
-        <input type="text" name="your Email" value="Your Email">
-      </form>
-      <button type="button" name="subscribe">subscribe!</button>
+      <div class="row" style="border:2px solid green;height: 40vh;">
+        <p>Get our daily food items delivered to your email</p>
+        <div class="col-md-9">
+          <form action="index.html" method="post">
+            <input type="text" name="Email" value="Your Email">
+          </form>
+        </div>
+        <div class="col-md-3">
+          <button type="button" name="Subscribe">subscribe</button>
+        </div>
+      </div>
     </div>
     <div class="menu">
       <img src="images/logo_white.png" alt="logo image of burger">
@@ -147,17 +153,17 @@
       <img src="images/twitter.png" alt="twitter logo">
       <img src="images/pinterest.png" alt="pinterest logo">
     </div>
-  </div>
 
 
 
 
 
 
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/scripts.js"></script>
 
-  </script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+    </script>
 </body>
 
 </html>

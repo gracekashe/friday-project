@@ -33,6 +33,7 @@ li {
 .item1 {
   grid-row: 1;
   padding: 10px;
+  padding-right: 5px;
 }
 
 .item2 {
